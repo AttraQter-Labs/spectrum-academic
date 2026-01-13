@@ -1,14 +1,17 @@
-# Spectrum (Academic Edition)
+# Spectrum (Academic)
 
-This repository provides **deterministic, reproducible reference implementations**
-for measurement and audit metrics used in scientific and regulatory contexts.
+This repository is an **academic reference mirror** of the Spectrum system.
 
-## Scope
-- Exact arithmetic
-- Reproducibility
-- Post-hoc analysis only
+## Purpose
+To demonstrate **deterministic, exact, replayable measurement logic** suitable for:
+- reproducibility research
+- auditability studies
+- regulatory measurement theory
 
-## Non-goals
-- Commercial deployment
-- Optimization
-- Adaptive systems
+## Properties
+- No floating point arithmetic
+- No randomness
+- No hidden state
+- Bit-identical replay
+
+This repository is **non-commercial** and **non-operational** by design.
