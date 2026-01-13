@@ -1,17 +1,13 @@
-# Spectrum (Academic)
+# spectrum-academic
 
-This repository is an **academic reference mirror** of the Spectrum system.
+This repository contains academic material related to the Spectrum engine.
 
-## Purpose
-To demonstrate **deterministic, exact, replayable measurement logic** suitable for:
-- reproducibility research
-- auditability studies
-- regulatory measurement theory
+## Contents
+- Formal proofs
+- Explanatory documents
+- Theoretical models
+- Diagrams and derivations
 
-## Properties
-- No floating point arithmetic
-- No randomness
-- No hidden state
-- Bit-identical replay
-
-This repository is **non-commercial** and **non-operational** by design.
+## Constraint
+This repository **must not** contain production code.  
+All executable logic lives in `spectrum`.
