@@ -1,13 +1,21 @@
-# spectrum-academic
+# Spectrum (Academic)
 
-This repository contains academic material related to the Spectrum engine.
+This repository contains academic and theoretical material related to the
+Spectrum deterministic computation engine.
 
-## Contents
-- Formal proofs
-- Explanatory documents
-- Theoretical models
-- Diagrams and derivations
+## Purpose
+- Formal reasoning
+- Proofs of correctness
+- Invariant analysis
+- Conceptual explanations
 
-## Constraint
-This repository **must not** contain production code.  
-All executable logic lives in `spectrum`.
+## Explicit Non-Purpose
+This repository does NOT contain:
+- Production code
+- Executable logic
+- Reference implementations
+
+For execution and implementation, see:
+→ https://github.com/AttraQter-Labs/spectrum
+
+This separation is intentional and enforced.
